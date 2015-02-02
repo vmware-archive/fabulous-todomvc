@@ -1,0 +1,41 @@
+/* base.css overrides */
+#footer .all,
+.completed #footer .completed,
+.active #footer .active {
+    font-weight: bold;
+}
+
+.completed #footer .all,
+.active #footer .all {
+    font-weight: normal;
+}
+
+.completed #todo-list li {
+    display: none;
+}
+.completed #todo-list li.completed {
+    display: list-item;
+}
+
+.active #todo-list .completed {
+    display: none
+}
+
+.todos-zero #main,
+.todos-zero #footer {
+    display: none;
+}
+
+#todo-count [data-cardinality] {
+    display: none;
+}
+
+.todos-remaining-zero #todo-count [data-cardinality="0"],
+.todos-remaining-one #todo-count [data-cardinality="1"],
+.todos-remaining-many #todo-count [data-cardinality="n"] {
+    display: inline-block;
+}
+
+.todos-completed-zero #clear-completed {
+    display: none;
+}

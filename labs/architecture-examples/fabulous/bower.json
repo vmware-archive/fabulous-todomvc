@@ -1,0 +1,17 @@
+{
+  "name": "todomvc-template",
+  "version": "0.0.0",
+  "main": "app/main",
+  "moduleType": [
+    "node"
+  ],
+  "dependencies": {
+    "todomvc-common": "~0.1.4",
+    "rave": "*",
+    "when": "~3",
+    "jiff": "~0.5",
+    "fabulous": "~0",
+    "csst": "~0.1.0",
+    "most": "~0.4.0"
+  }
+}
